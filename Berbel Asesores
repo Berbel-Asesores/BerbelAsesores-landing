@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asesoría Profesional</title>
+
+<style>
+body{
+font-family:Arial,sans-serif;
+margin:0;
+padding:0;
+line-height:1.6;
+}
+
+.hero{
+background:#f5f5f5;
+padding:80px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.btn{
+background:#007bff;
+color:white;
+padding:15px 30px;
+text-decoration:none;
+border-radius:5px;
+}
+
+.section{
+padding:60px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#eee;
+}
+</style>
+
+</head>
+<body>
+
+<section class="hero">
+<h1>Reduce tus impuestos legalmente</h1>
+<p>Asesoría especializada para autónomos y pymes.</p>
+<a class="btn" href="#contacto">Solicitar consulta</a>
+</section>
+
+<section class="section">
+<h2>¿Qué conseguimos?</h2>
+<ul>
+<li>Menos impuestos</li>
+<li>Más rentabilidad</li>
+<li>Mayor tranquilidad</li>
+</ul>
+</section>
+
+<section id="contacto" class="section">
+<h2>Contacto</h2>
+<p>Rellena el formulario.</p>
+</section>
+
+<footer>
+© 2026Berbel Asesores
+</footer>
+
+</body>
+</html>
