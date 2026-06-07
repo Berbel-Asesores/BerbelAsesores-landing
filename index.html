@@ -17,6 +17,33 @@ body{
     color:#333;
 }
 
+<nav style="
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 18px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(17, 28, 62, 0.96);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(200,150,62,0.2);
+">
+    <span style="font-family:'Book Antiqua',Palatino,serif; font-size:20px; font-weight:bold; color:white;">
+        Berbel <span style="color:#E8B45A;">Asesores</span>
+    </span>
+    <a href="#contacto" style="
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #1E3A5F;
+        background: #E8B45A;
+        padding: 10px 24px;
+        text-decoration: none;
+    ">Consulta gratuita</a>
+</nav>
+    
 .hero{
 background:#27348B;
 color:white;
@@ -45,8 +72,9 @@ text-align:center; text-justify: inter-word;
     color: #E8B45A;
     font-style: italic;
 }    
-
+    
 .hero p{
+ padding-top: 120px; /* era 80px, súbelo a 120px */
 font-size:22px;
 max-width:800px;
 margin:auto;
@@ -60,8 +88,7 @@ background:#ffffff;
 color:#1E3A5F;
 text-decoration:none;
 font-weight:bold;
-border-radius:6px;
-text-align:center; text-justify: inter-word;    
+border-radius:6px;    
 }
 
 .seccion{
